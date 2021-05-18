@@ -1,0 +1,35 @@
+.timer p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: gray;
+}
+
+.timer p span.bigger{
+    font-size: 4rem;
+    color: white;
+}
+
+.timer .buttonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.timer .buttonGroup button {
+    font-size: 2rem;
+    color: gray;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    transition: all 50ms ease-in-out;
+}
+
+.timer .buttonGroup button:hover {
+  color: white;
+  border-color: white;
+}
